@@ -260,8 +260,7 @@ nav {
   place-items: center;
   left: 0;
   right: 0;
-  top: 62.48px;
-  z-index: -1;
+  z-index: 999;
 }
 
 .info {
@@ -285,7 +284,7 @@ nav {
 .banner {
   background-image: url('/hero-image.jpeg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size :cover;
   background-position: top;
   height: calc(100vh - 130px);
   width: 100vw;
@@ -499,10 +498,9 @@ nav {
   }
 }
 @media screen and (max-width: 768px) {
- .banner {
-  margin-top: 130px;
- }
-
+   .info-wrapper {
+    margin-top: 100px;
+   }
   .page-hero {
     justify-content: space-around;
     height: calc(70vh - 117.16px) !important;
