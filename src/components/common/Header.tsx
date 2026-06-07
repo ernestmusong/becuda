@@ -8,6 +8,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FaAlignJustify, FaMapMarkerAlt, FaTimes } from 'react-icons/fa';
 
+const about = [
+  { id: 1, path: '/about-befang', text: 'history' },
+  { id: 2, path: '/comming-soon', text: 'geography' },
+  { id: 3, path: '/comming-soon', text: 'politics' },
+];
+
 const Header: React.FC = () => {
   return (
     <>
@@ -125,6 +131,21 @@ const GlobalHeader: React.FC = () => {
               <Link href="/constitution" className={pathname === "/constitution" ? "active-link clear" : "clear"} onClick={() => clearHeight()}>
                 Constitution
               </Link>
+              <div className="dropdown">
+                <Link href="#" style={{ zIndex: '-1' }}>about befang</Link>
+                <div className="dropdown-content">
+                  {about.map((c) => (
+                    <Link
+                      href={c.path}
+                      key={c.id}
+                      className="clear dropdown-link"
+                      onClick={() => clearHeight()}
+                    >
+                      {c.text}
+                    </Link>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
         </div>
