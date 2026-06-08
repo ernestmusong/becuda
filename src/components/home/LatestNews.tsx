@@ -15,7 +15,7 @@ const LatestNews: React.FC = () => {
                         <article className="mx-auto post-container">
                             <div className="post-img-wrapper">
                                 <Image 
-                                    className="img-fluid post-img"
+                                    className="img-fluid"
                                     src={event.img}
                                     alt="article"
                                     width={500}
