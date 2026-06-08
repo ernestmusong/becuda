@@ -122,11 +122,8 @@ const GlobalHeader: React.FC = () => {
               <Link href="/users" className={pathname === '/users' ? "active-link clear" : "clear"} onClick={() => clearHeight()}>
                 Home
               </Link>
-              <Link href="/users" className={pathname === '/projects' ? "active-link clear" : "clear"} onClick={() => clearHeight()}>
-                projects
-              </Link>
-              <Link href="/users" className={pathname === '/conventions' ? "active-link clear" : "clear"} onClick={() => clearHeight()}>
-                conventions
+              <Link href="/news" className={pathname === '/news' ? "active-link clear" : "clear"} onClick={() => clearHeight()}>
+                news
               </Link>
               <Link href="/constitution" className={pathname === "/constitution" ? "active-link clear" : "clear"} onClick={() => clearHeight()}>
                 Constitution

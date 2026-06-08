@@ -1,5 +1,3 @@
-import { Suspense } from "react";
-import { Title } from "../common/Headings";
 import Hero from "./Hero";
 import Members from "./Members";
 import DomainOfIntervention from "./DomainOfIntervention";

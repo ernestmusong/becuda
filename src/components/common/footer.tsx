@@ -20,7 +20,7 @@ const GlobalFooter: React.FC = () => {
       <footer className="container-fluid footer-bg py-4">
         <div className="row d-flex flex-column justify-content-around align-items-center">
           <div>
-            <p className="text-light footer-p">
+            <p className="text-white footer-p">
               Copyright &copy;
               {' '}
               <span id="date">{date}</span>
@@ -32,7 +32,7 @@ const GlobalFooter: React.FC = () => {
             </p>
           </div>
           <div>
-            <p className="footer-p text-center text-capitalize text-light">
+            <p className="footer-p text-center text-capitalize text-white">
               Created by
               {' '}
               <span className=" text-uppercase"><a href="https://engineeringec.com/" className=" text-uppercase" style={{ color: 'Var(--mainOrange)' }} target="_blank" rel="noreferrer">green engineering and consultancy ltd</a></span>

@@ -9,7 +9,7 @@ import { MemberProps, User, BalanceProps } from "../../../../types/types";
 import { Title3 } from "@/components/common/Headings";
 import ModalComponent from '@/components/common/Modal';
 import Spinner1 from '@/components/spinners/Spinnee1';
-import Loading from '../loading';
+import Loading from '../../../components/common/loading';
 import "./user.css";
 import Link from "next/link";
 
