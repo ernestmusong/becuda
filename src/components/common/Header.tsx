@@ -6,7 +6,7 @@ import { getGreeting } from '@/app/utils/greetings';
 import { formatTime } from '@/app/utils/time';
 import Image from 'next/image';
 import Link from 'next/link';
-import { FaAlignJustify, FaMapMarkerAlt, FaTimes } from 'react-icons/fa';
+import { FaAlignJustify, FaMapMarkerAlt, FaTimes, FaChevronDown } from 'react-icons/fa';
 
 const about = [
   { id: 1, path: '/about-befang', text: 'history' },
@@ -122,14 +122,15 @@ const GlobalHeader: React.FC = () => {
               <Link href="/users" className={pathname === '/users' ? "active-link clear" : "clear"} onClick={() => clearHeight()}>
                 Home
               </Link>
-              <Link href="/news" className={pathname === '/news' ? "active-link clear" : "clear"} onClick={() => clearHeight()}>
-                news
-              </Link>
-              <Link href="/constitution" className={pathname === "/constitution" ? "active-link clear" : "clear"} onClick={() => clearHeight()}>
+              <Link href="/news" className={`clear ${pathname === '/news' ? 'active-link' : ''}`} onClick={() => clearHeight()}>news</Link>
+              {/* <Link href="/constitution" className={pathname === "/constitution" ? "active-link clear" : "clear"} onClick={() => clearHeight()}>
                 Constitution
-              </Link>
+              </Link> */}
               <div className="dropdown">
-                <Link href="#" style={{ zIndex: '-1' }}>about befang</Link>
+                <Link href="#" style={{ zIndex: '-1' }} className='d-flex align-items-center gap-1'>
+                <span>abour befang</span>
+                <FaChevronDown/>
+                </Link>
                 <div className="dropdown-content">
                   {about.map((c) => (
                     <Link

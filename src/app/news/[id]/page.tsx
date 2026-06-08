@@ -38,7 +38,7 @@ export default function page ({ params }:{params: {id: string}}) {
           <p style={{ color: 'Var(--softWhite)' }}>{event.body}</p>
           <div>
             <Link href="/news">
-              <button type="button" className="btns">back</button>
+              <button type="button" className=" btn btn-small btns">back</button>
             </Link>
           </div>
         </div>

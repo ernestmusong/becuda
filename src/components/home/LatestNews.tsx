@@ -1,24 +1,25 @@
-import { Title } from "../common/Headings";
+import { Title2 } from "../common/Headings";
 import { events } from "@/data/news";
 import Image from 'next/image';
 import Link from 'next/link';
 
-const News: React.FC = () => {
+const LatestNews: React.FC = () => {
+    const latestEvents = events.slice(- 3);
     return (
        <main>
             <section className="container">
-              <Title title="news"/>
+              <Title2 title="latest news"/>
                 <div className="posts-container mx-auto">
-                {events?.map((event) => {
+                {latestEvents?.map((event) => {
                     return(
                         <article className="mx-auto post-container">
                             <div className="post-img-wrapper">
                                 <Image 
-                                    className="img-fluid"
+                                    className="img-fluid post-img"
                                     src={event.img}
                                     alt="article"
                                     width={500}
-                                    height={400}
+                                    height={500}
                                     />
                             </div>
                         <div className="post-tiltle-wrapper py-1">
@@ -35,11 +36,11 @@ const News: React.FC = () => {
                     )
                 })}
                 </div>
-             
+                  <Link  href="/news" className="mx-auto home-btn">go to news page</Link>
             </section>
        </main>
        
     );
   };
   
-  export default News;
+  export default LatestNews;
