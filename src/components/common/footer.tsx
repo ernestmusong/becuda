@@ -3,6 +3,7 @@
 import React from 'react';
 import { usePathname } from "next/navigation";
 import { FaWhatsapp } from 'react-icons/fa';
+import Link from 'next/link';
 
 const Footer: React.FC = () => {
   const pathname = usePathname();
@@ -39,15 +40,15 @@ const GlobalFooter: React.FC = () => {
             </p>
           </div>
           <div>
-            <p className="footer-p text-center text-b text-muted">Powered By BUCUDA </p>
+            <p className="footer-p text-center text-b text-white" style={{opacity: 0.7}}>Powered By BUCUDA </p>
           </div>
         </div>
       </footer>
       {/* Whatsapp chat */}
-      {/* <a href="https://wa.me/237676308067" align="center" className="whatsappbutton">
+      <Link href="https://wa.me/237678506966"  className="whatsappbutton">
         <FaWhatsapp className="chat" style={{ fontSize: '2rem' }} />
         <span>Chat with Us</span>
-      </a> */}
+      </Link>
     </>
   );
 };

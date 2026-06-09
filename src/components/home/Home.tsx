@@ -4,6 +4,7 @@ import DomainOfIntervention from "./DomainOfIntervention";
 import Mission from "./Mission";
 import Vission from "./Vission";
 import LatestNews from "./LatestNews";
+import PopupModal from "./Modal";
 
 const Home: React.FC = async () => {
     return (
@@ -13,6 +14,7 @@ const Home: React.FC = async () => {
         <LatestNews />
         <Mission />
         <Vission />
+        <PopupModal />
       </main>
     );
 };

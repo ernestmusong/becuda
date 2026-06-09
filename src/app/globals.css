@@ -56,6 +56,31 @@ a[href^="tel:"]::before {
   margin-right: 10px;
 }
 
+/* -------------------------------------------------------------popup modal */
+.close {
+  border: none;
+  background: transparent;
+  font-size: 1.5rem;
+}
+
+/* .modal-title {
+  color: var(--mainOrange);
+} */
+
+.modal-body span {
+  color: var(--mainOrange);
+}
+
+.modal-footer {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center;
+}
+
+#exampleModalCenter {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
 /* ------------------------------------------------------------Buttons */
 .btns {
   text-transform: capitalize;

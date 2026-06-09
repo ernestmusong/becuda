@@ -20,6 +20,6 @@ export const events = [
         `Ikum is a vibrant annual dance celebration held by the Befang people, showcasing our rich cultural heritage and community spirit. This traditional dance not only serves as a platform for performance and artistry but also plays a crucial role in preserving our unique customs and traditions.`,
         `Significant to the Befang community, Ikum fosters unity among participants and strengthens ties between generations. Through rhythmic movements, colorful costumes, and compelling music, the dance embodies our historical narratives and values, promoting cultural pride and identity. Join us in celebrating this essential aspect of our culture, as we come together to honor our roots and share the joy of the Ikum with the world.`
       ],
-      desc: 'showcasing our rich cultural heritage and community spirit.',
+      desc: 'To showcasing our rich cultural heritage and community spirit.',
     },
   ]

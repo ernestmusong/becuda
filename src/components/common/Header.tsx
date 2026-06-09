@@ -9,7 +9,7 @@ import Link from 'next/link';
 import { FaAlignJustify, FaMapMarkerAlt, FaTimes, FaChevronDown } from 'react-icons/fa';
 
 const about = [
-  { id: 1, path: '/about-befang', text: 'history' },
+  { id: 1, path: '/comming-soon', text: 'history' },
   { id: 2, path: '/comming-soon', text: 'geography' },
   { id: 3, path: '/comming-soon', text: 'politics' },
 ];
