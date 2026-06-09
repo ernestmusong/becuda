@@ -14,7 +14,7 @@ function PopupModal() {
         <div className="modal-dialog modal-dialog-centered" role="document">
           <div className="modal-content" style={{ backgroundColor: 'white' }}>
             <div className="modal-header">
-              <h5 className="modal-title text-uppercase mx-auto">Our culture is unique</h5>
+              <h5 className="modal-title text-uppercase mx-auto">welcome to becuda!</h5>
               <button type="button" className="close" onClick={() => handleShow()}>
                 <span>&times;</span>
               </button>
