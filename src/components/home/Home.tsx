@@ -9,7 +9,6 @@ const Home: React.FC = async () => {
     return (
       <main className="container-fluid p-0">
         <Hero />
-        <Members />
         <DomainOfIntervention />
         <LatestNews />
         <Mission />

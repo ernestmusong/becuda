@@ -36,7 +36,9 @@ const LatestNews: React.FC = () => {
                     )
                 })}
                 </div>
-                  <Link  href="/news" className="mx-auto home-btn">go to news page</Link>
+                  <div className="w-100 mx-auto text-center">
+                    <Link  href="/news" className="home-btn">go to news page</Link>
+                  </div>
             </section>
        </main>
        

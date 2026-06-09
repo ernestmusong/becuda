@@ -119,16 +119,17 @@ const GlobalHeader: React.FC = () => {
           {/* Menu */}
           <div id="links-container" className="links-container target" style={{ height, overflow: overFlow }}>
             <div className="links target">
-              <Link href="/users" className={pathname === '/users' ? "active-link clear" : "clear"} onClick={() => clearHeight()}>
+              <Link href="/" className={pathname === '/' ? "active-link clear" : "clear"} onClick={() => clearHeight()}>
                 Home
               </Link>
               <Link href="/news" className={`clear ${pathname === '/news' ? 'active-link' : ''}`} onClick={() => clearHeight()}>news</Link>
-              {/* <Link href="/constitution" className={pathname === "/constitution" ? "active-link clear" : "clear"} onClick={() => clearHeight()}>
+              <Link href="/resources" className={`clear ${pathname === '/resources' ? 'active-link' : ''}`} onClick={() => clearHeight()}>resources</Link>
+              <Link href="/constitution" className={pathname === "/constitution" ? "active-link clear" : "clear"} onClick={() => clearHeight()}>
                 Constitution
-              </Link> */}
+              </Link>
               <div className="dropdown">
                 <Link href="#" style={{ zIndex: '-1' }} className='d-flex align-items-center gap-1'>
-                <span>abour befang</span>
+                <span>about befang</span>
                 <FaChevronDown/>
                 </Link>
                 <div className="dropdown-content">

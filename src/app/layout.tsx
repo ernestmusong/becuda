@@ -8,6 +8,9 @@ import Footer from "@/components/common/footer";
 export const metadata: Metadata = {
   title: "BECUDA",
   description: "Befang Cultural and Development Association",
+  icons: {
+    icon: '/becuda-logo.png',
+  }
 };
 
 export default function RootLayout({
