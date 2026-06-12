@@ -3,7 +3,7 @@ import Header from "@/components/common/Header";
 import StoreProvider from "./StoreProvider";
 import 'bootstrap/dist/css/bootstrap.css';
 import "./globals.css";
-import Footer from "@/components/common/footer";
+import Footer from "@/components/common/footer/footer";
 
 export const metadata: Metadata = {
   title: "BECUDA",
