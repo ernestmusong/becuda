@@ -6,7 +6,7 @@ import styles from "./footer.module.css";
 import {
    FaWhatsapp,
    FaFacebookF,
-   FaTwitter,
+   FaInstagram,
    FaTiktok,
    FaYoutube,
    FaPhone,
@@ -57,9 +57,9 @@ const GlobalFooter: React.FC = () => {
             <FaTiktok />
           </a>
 
-          {/* <a href="#" aria-label="YouTube">
-            <FaYoutube />
-          </a> */}
+          <a href="https://www.instagram.com/becudabefang?igsh=ZGUzMzM3NWJiOQ==" aria-label="YouTube">
+            <FaInstagram />
+          </a>
         </div>
       </div>
       {/* Col 4 */}
