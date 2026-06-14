@@ -51,10 +51,10 @@ a {
   text-decoration: none;
 }
 
-a[href^="tel:"]::before {
+/* a[href^="tel:"]::before {
   content: "\260e";
   margin-right: 10px;
-}
+} */
 
 /* -------------------------------------------------------------popup modal */
 .close {
