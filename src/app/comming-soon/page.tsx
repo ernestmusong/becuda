@@ -4,7 +4,7 @@ import CommingSoon from "@/components/ComingSoon";
 
 function Page () {
     return (
-         <CommingSoon />
+         <CommingSoon text="comming soon" />
     );
   }
   

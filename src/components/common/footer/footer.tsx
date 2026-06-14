@@ -57,8 +57,11 @@ const GlobalFooter: React.FC = () => {
             <FaTiktok />
           </a>
 
-          <a href="https://www.instagram.com/becudabefang?igsh=ZGUzMzM3NWJiOQ==" aria-label="YouTube">
+          <a href="https://www.instagram.com/becudabefang?igsh=ZGUzMzM3NWJiOQ==" aria-label="Instagram">
             <FaInstagram />
+          </a>
+          <a href="https://youtube.com/@befangculturalanddevelopmentas?si=uV_9e3rZOdfY7-6P" aria-label="YouTube">
+            <FaYoutube />
           </a>
         </div>
       </div>

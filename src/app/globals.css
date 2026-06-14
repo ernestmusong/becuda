@@ -56,6 +56,13 @@ a {
   margin-right: 10px;
 } */
 
+.callnow-container,
+.treasurer-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 /* -------------------------------------------------------------popup modal */
 .close {
   border: none;
@@ -621,6 +628,11 @@ nav {
 
   .register-link {
     width: 200px;
+  }
+
+   .callnow-container,
+  .treasurer-links {
+    width: 100%;
   }
 
   .footer-p span {
