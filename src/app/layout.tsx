@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   description: "Befang Cultural and Development Association",
   icons: {
     icon: '/becuda-logo.png',
+    shortcut:'/becuda-logo.png',
   }
 };
 
