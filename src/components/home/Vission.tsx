@@ -6,7 +6,7 @@ const Vission: React.FC = () => {
       <section className="container">
         <Title2 title="our vission"/>
         <p style={{ color: 'Var(--softWhite)' }}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ducimus maxime ullam veritatis quae pariatur exercitationem odit voluptatum reprehenderit eos, magni libero, laborum dolore debitis dicta ipsum non explicabo. Nihil?
+          A vibrant, united, and prosperous Befang community that proudly preserves its cultural identity while driving inclusive development, empowering its people, and contributing positively to society
         </p>
      </section>
        
