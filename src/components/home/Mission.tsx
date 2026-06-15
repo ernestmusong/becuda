@@ -6,7 +6,7 @@ const Mission: React.FC = () => {
       <section className="container">
         <Title2 title="our mission"/>
         <p style={{ color: 'Var(--softWhite)' }}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ducimus maxime ullam veritatis quae pariatur exercitationem odit voluptatum reprehenderit eos, magni libero, laborum dolore debitis dicta ipsum non explicabo. Nihil?
+          To unite the people of Befang and its friends around the world in preserving and promoting our cultural heritage, fostering community solidarity, and advancing sustainable social, educational, and economic development for the well-being of present and future generations.
         </p>
      </section>
        
